@@ -39,3 +39,79 @@ body {
 .links a:hover {
   color: #0051a3;
 }
+
+.cv-btn {
+  margin-top: 1.2rem;
+  padding: 0.5rem 1.4rem;
+  background: #0051a3;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cv-btn:hover {
+  background: #003d7a;
+}
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  position: relative;
+  min-width: 280px;
+}
+
+.modal-card h2 {
+  margin: 0 0 0.4rem;
+}
+
+.modal-card p {
+  color: #444;
+  margin-bottom: 1.4rem;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.modal-btn {
+  padding: 0.6rem 1.2rem;
+  background: #0051a3;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  transition: background 0.3s;
+}
+
+.modal-btn:hover {
+  background: #003d7a;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.8rem;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: #888;
+  cursor: pointer;
+}
